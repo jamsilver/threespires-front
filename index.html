@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Home | Three Spires</title>
+
+  <!-- load source favicon via Webpack alias '@images' -->
+  <link href="assets/img/logo.b574016a.svg" rel="icon" type="image/png">
+
+  <!-- load global source script via Webpack alias '@scripts' -->
+  <script src="assets/js/common.e8374bce.js" defer="defer"></script>
+
+  <!-- block for specific page styles -->
+  
+<!-- load specific page style -->
+<link href="assets/css/style.d64e79c5.css" rel="stylesheet">
+
+</head>
+<body class="anim-stage-0 anim-stage-1 anim-stage-2 anim-stage-3 anim-stage-4">
+  <noscript>
+    <img class="fallback top left" src="assets/img/fallback-canvas-left.7a9130a1.png" role="presentation" alt=""/>
+    <img class="fallback top right" src="assets/img/fallback-canvas-topright.0501fd34.png" role="presentation" alt=""/>
+    <img class="fallback bottom right" src="assets/img/fallback-canvas-bottomright.5f1e2937.png" role="presentation" alt=""/>
+  </noscript>
+  <script>
+    const removeClassesWithPrefix = (element, prefix) => {
+      const classesToRemove = [];
+      for (const [, className] of element.classList.entries()) {
+        if (className.startsWith(prefix)) {
+          classesToRemove.push(className);
+        }
+      }
+      element.classList.remove.apply(element.classList, classesToRemove);
+    }
+
+    if (String.prototype.includes.call(window.location.search, 'da')) {
+      const noScript = document.getElementsByTagName('noscript')[0];
+      document.write(noScript.textContent || noScript.innerHtml);
+      document.body.classList.add('animations-disabled');
+    }
+    else {
+      removeClassesWithPrefix(document.body, 'anim-stage-');
+      document.body.classList.add('animations-enabled');
+    }
+
+    document.body.classList.add('js');
+  </script>
+
+  <header itemtype="https://schema.org/Organization">
+    <span class="company-name" itemprop="name">three spires</span>
+    <img src="assets/img/logo.b574016a.svg" itemprop="logo" alt="Company logo: three, overlapping blue spires" />
+  </header>
+
+  <main>
+    <a
+      class="skip-link arrive-with-anim-stage arrive-with-anim-stage-1 leave-with-anim-stage-4"
+      href="javascript:void(0);"
+      onClick="window.dispatchEvent(new CustomEvent('skipAnimations'))"
+    ><span>(skip)</span></a>
+    
+<p class="tagline">
+  <span class="arrive-with-anim-stage arrive-with-anim-stage-5" style="transition: opacity 0.2s;">🚀</span>
+  <span class="arrive-with-anim-stage arrive-with-anim-stage-5" style="transition: opacity 1.2s;">🚀</span>
+  <span class="arrive-with-anim-stage arrive-with-anim-stage-5" style="transition: opacity 2.2s;">🚀</span>
+  <br />
+  <span class="arrive-with-anim-stage arrive-with-anim-stage-5">for your development team.</span>
+</p>
+<nav class="arrive-with-anim-stage arrive-with-anim-stage-4">
+  <ul>
+    <li>
+      <section>
+        <details data-name="foobar" open data-open>
+          <summary><h2>Tech Lead</h2></summary>
+          <div class="content">
+            <p>Hands-on, consultant software engineer with two decades&rsquo; industry experience.</p>
+            <p><strong>Solves</strong> problems. <strong>Delivers</strong> working solutions.</p>
+            <a href="mailto:jamsilver@pm.me" class="button">Get in touch</a>
+          </div>
+        </details>
+      </section>
+    </li>
+    <li>
+      <section>
+        <details data-name="foobar" open data-closed>
+          <summary><h2>Solution Architect</h2></summary>
+          <div class="content">
+            <p>Works with you to determine the <strong>target</strong> solution. Communicates the <strong>vision</strong>.</p>
+            <p>Continuously adjusts to the <strong>business</strong> and <strong>technology</strong> landscape.</p>
+            <p>Holds the development <strong>lifecycle</strong> together.</p>
+            <a href="mailto:jamsilver@pm.me" class="button">Get in touch</a>
+          </div>
+        </details>
+      </section>
+    </li>
+    <li>
+      <section>
+        <details data-name="foobar" open data-closed>
+          <summary><h2>Trainer</h2></summary>
+          <div class="content">
+            <p>&ldquo;The best way to build a great team is to train them yourself&rdquo;</p>
+            <p>Let a <strong>passionate</strong>, <strong>knowledgeable</strong> coach upgrade your team.</p>
+            <a href="mailto:jamsilver@pm.me" class="button">Get in touch</a>
+          </div>
+        </details>
+      </section>
+    </li>
+  </ul>
+</nav>
+
+  </main>
+
+  <footer>
+  <div class="animations-control arrive-with-anim-stage arrive-with-anim-stage-5" role="toolbar">
+    animations:
+    <a
+      class="enable-animations"
+      href="javascript:void(0);"
+      onClick="window.location.assign([window.location.origin, window.location.pathname, window.location.hash].join(''));"
+    >[enable]</a>
+    <a
+      class="disable-animations"
+      href="javascript:void(0);"
+      onClick="window.dispatchEvent(new CustomEvent('da'))"
+    >[disable]</a>
+  </div>
+
+  <p class="non-mobile-only arrive-with-anim-stage arrive-with-anim-stage-5">
+    Copyright © 2024 Three Spires Software Ltd. All rights reserved.<br />
+    Registered in England and Wales. Company no. 15770982.
+  </p>
+
+  <p class="mobile-only arrive-with-anim-stage arrive-with-anim-stage-5">
+    Copyright © 2024<br /> Three Spires Software Ltd.
+  </p>
+</footer>
+
+
+  
+<!-- load specific page script -->
+<script src="assets/js/home.31d6cfe0.js"></script>
+
+</body>
+</html>
